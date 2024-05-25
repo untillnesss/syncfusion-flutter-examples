@@ -212,7 +212,7 @@ class _MapEqualColorMappingPageState extends SampleViewState {
             ),
             Expanded(
               child: SfMapsTheme(
-                data: const SfMapsThemeData(
+                data: SfMapsThemeData(
                   shapeHoverColor: Colors.transparent,
                   shapeHoverStrokeColor: Colors.transparent,
                 ),

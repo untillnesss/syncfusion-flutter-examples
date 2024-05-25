@@ -17,7 +17,7 @@ dependencies:
   path_provider: ^2.0.1
   path_provider_foundation: ^2.1.0
   desktop_window: 0.4.0
-  intl: ^0.18.0
+  intl: ^0.19.0
   
   syncfusion_localizations: ^24.1.41
   syncfusion_flutter_datagrid_export: ^24.1.41
@@ -34,6 +34,11 @@ dependencies:
   syncfusion_flutter_pdfviewer: ^24.1.41
   syncfusion_flutter_treemap: ^24.1.41
 
+  syncfusion_flutter_core: any
+  syncfusion_flutter_datagrid: any
+  path_provider_platform_interface: any
+  collection: any
+  syncfusion_flutter_xlsio: any
 flutter:
   uses-material-design: true
   assets:

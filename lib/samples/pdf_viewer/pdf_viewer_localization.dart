@@ -167,7 +167,7 @@ class _LocalizationPdfViewerState extends LocalizationSampleViewState {
               builder: (BuildContext context, AsyncSnapshot<Object?> snapshot) {
                 if (_canShowPdf) {
                   return SfPdfViewerTheme(
-                    data: const SfPdfViewerThemeData(),
+                    data: SfPdfViewerThemeData(),
                     child: SfPdfViewer.asset(
                       'assets/pdf/flutter_succinctly.pdf',
                       key: _pdfViewerKey,

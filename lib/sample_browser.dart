@@ -156,14 +156,14 @@ class _SampleBrowserState extends State<SampleBrowser> {
       title: 'Demos & Examples of Syncfusion Flutter Widgets',
       theme: _sampleListModel.themeData.copyWith(
         scrollbarTheme: const ScrollbarThemeData().copyWith(
-          thumbColor: MaterialStateProperty.all(
+          thumbColor: WidgetStateProperty.all(
             const Color.fromRGBO(128, 128, 128, 0.3),
           ),
         ),
       ),
       darkTheme: _sampleListModel.themeData.copyWith(
         scrollbarTheme: const ScrollbarThemeData().copyWith(
-          thumbColor: MaterialStateProperty.all(
+          thumbColor: WidgetStateProperty.all(
             const Color.fromRGBO(255, 255, 255, 0.3),
           ),
         ),

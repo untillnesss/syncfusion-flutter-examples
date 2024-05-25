@@ -186,7 +186,7 @@ class _MapsWithDirectionalityState extends DirectionalitySampleViewState {
               right: 10)
           : const EdgeInsets.only(right: 10, bottom: 15),
       child: SfMapsTheme(
-        data: const SfMapsThemeData(),
+        data: SfMapsThemeData(),
         child: Column(children: <Widget>[
           Padding(
               padding: const EdgeInsets.only(top: 15, bottom: 30),

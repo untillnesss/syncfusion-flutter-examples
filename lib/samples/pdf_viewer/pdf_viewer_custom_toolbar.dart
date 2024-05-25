@@ -1698,7 +1698,7 @@ class _CustomToolbarPdfViewerState extends SampleViewState {
               ]);
             }
             return SfPdfViewerTheme(
-              data: const SfPdfViewerThemeData(),
+              data: SfPdfViewerThemeData(),
               child: PopScope(
                 onPopInvoked: (bool value) {
                   setState(() {

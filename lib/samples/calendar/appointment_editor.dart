@@ -3511,7 +3511,7 @@ class _AppointmentEditorWebState extends State<AppointmentEditorWeb> {
                                       ),
                                       TextField(
                                         mouseCursor:
-                                            MaterialStateMouseCursor.clickable,
+                                            WidgetStateMouseCursor.clickable,
                                         controller: TextEditingController(
                                             text: _selectedRecurrenceType),
                                         decoration: InputDecoration(
@@ -4031,7 +4031,7 @@ class _AppointmentEditorWebState extends State<AppointmentEditorWeb> {
                                           ),
                                           TextField(
                                             mouseCursor:
-                                                MaterialStateMouseCursor
+                                                WidgetStateMouseCursor
                                                     .clickable,
                                             controller: TextEditingController(
                                                 text: _monthName),
@@ -4392,7 +4392,7 @@ class _AppointmentEditorWebState extends State<AppointmentEditorWeb> {
                                                                   bottom: 6),
                                                           child: TextField(
                                                             mouseCursor:
-                                                                MaterialStateMouseCursor
+                                                                WidgetStateMouseCursor
                                                                     .clickable,
                                                             controller:
                                                                 TextEditingController(
@@ -4908,7 +4908,7 @@ class _AppointmentEditorWebState extends State<AppointmentEditorWeb> {
                                 width: 102,
                                 child: TextField(
                                   mouseCursor:
-                                      MaterialStateMouseCursor.clickable,
+                                      WidgetStateMouseCursor.clickable,
                                   controller: TextEditingController(
                                       text: _weekNumberText),
                                   decoration: InputDecoration(
@@ -4983,7 +4983,7 @@ class _AppointmentEditorWebState extends State<AppointmentEditorWeb> {
                                 margin: const EdgeInsets.only(left: 10),
                                 child: TextField(
                                   mouseCursor:
-                                      MaterialStateMouseCursor.clickable,
+                                      WidgetStateMouseCursor.clickable,
                                   controller: TextEditingController(
                                       text: _dayOfWeekText),
                                   decoration: InputDecoration(

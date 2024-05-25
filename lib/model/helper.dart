@@ -1192,10 +1192,10 @@ Widget buildM2ToM3SwapOption(SampleModel model, BuildContext context,
   final bool isMaterial3 = model.themeData.useMaterial3;
   final Widget themeSwitch = SwitchTheme(
     data: SwitchThemeData(
-      trackOutlineColor: MaterialStateProperty.resolveWith((states) {
-        return states.contains(MaterialState.selected) ? Colors.white : null;
+      trackOutlineColor: WidgetStateProperty.resolveWith((states) {
+        return states.contains(WidgetState.selected) ? Colors.white : null;
       }),
-      trackOutlineWidth: MaterialStateProperty.resolveWith((states) {
+      trackOutlineWidth: WidgetStateProperty.resolveWith((states) {
         return 1.0;
       }),
     ),

@@ -104,10 +104,10 @@ class _ImportAndExportFormDataState extends SampleViewState {
                   TextButton(
                     style: ButtonStyle(
                       backgroundColor:
-                          MaterialStateProperty.all<Color>(model.primaryColor),
+                          WidgetStateProperty.all<Color>(model.primaryColor),
                       padding: model.isMobile
                           ? null
-                          : MaterialStateProperty.all(
+                          : WidgetStateProperty.all(
                               const EdgeInsets.symmetric(
                                   vertical: 15, horizontal: 15)),
                     ),
@@ -122,10 +122,10 @@ class _ImportAndExportFormDataState extends SampleViewState {
                   TextButton(
                     style: ButtonStyle(
                       backgroundColor:
-                          MaterialStateProperty.all<Color>(model.primaryColor),
+                          WidgetStateProperty.all<Color>(model.primaryColor),
                       padding: model.isMobile
                           ? null
-                          : MaterialStateProperty.all(
+                          : WidgetStateProperty.all(
                               const EdgeInsets.symmetric(
                                   vertical: 15, horizontal: 15)),
                     ),

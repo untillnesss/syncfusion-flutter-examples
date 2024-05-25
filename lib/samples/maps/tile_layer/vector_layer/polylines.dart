@@ -112,7 +112,7 @@ class _PolylinesSampleState extends SampleViewState
                 ),
               ),
               SfMapsTheme(
-                data: const SfMapsThemeData(
+                data: SfMapsThemeData(
                   shapeHoverColor: Colors.transparent,
                 ),
                 child: SfMaps(

@@ -609,7 +609,7 @@ class _RTLModePdfViewerState extends DirectionalitySampleViewState {
               );
             }
             return SfPdfViewerTheme(
-              data: const SfPdfViewerThemeData(),
+              data: SfPdfViewerThemeData(),
               child: PopScope(
                 onPopInvoked: (bool value) {
                   setState(() {

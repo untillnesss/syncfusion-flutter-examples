@@ -54,7 +54,7 @@ class _ShapeCustomizedSliderPageState extends SampleViewState {
             children: <Widget>[
               title('Track'),
               SfSliderTheme(
-                  data: const SfSliderThemeData(
+                  data: SfSliderThemeData(
                     overlayColor: Colors.transparent,
                   ),
                   child: SfSlider(

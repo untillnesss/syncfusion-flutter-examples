@@ -486,7 +486,7 @@ class SearchBarState extends State<CustomSearchBar>
                       _navigateToSample(_selectionIndex!);
                     }
                   },
-                  mouseCursor: MaterialStateMouseCursor.clickable,
+                  mouseCursor: WidgetStateMouseCursor.clickable,
                   cursorColor: widget.sampleListModel.isWebFullView
                       ? Colors.white
                       : Colors.grey,

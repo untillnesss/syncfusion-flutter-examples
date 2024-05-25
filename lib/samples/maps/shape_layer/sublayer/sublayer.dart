@@ -158,7 +158,7 @@ class _MapSublayerPageState extends SampleViewState {
                     )
                   : const EdgeInsets.only(right: 10, bottom: 15),
               child: SfMapsTheme(
-                data: const SfMapsThemeData(
+                data: SfMapsThemeData(
                   shapeHoverColor: Colors.transparent,
                   shapeHoverStrokeColor: Colors.transparent,
                 ),

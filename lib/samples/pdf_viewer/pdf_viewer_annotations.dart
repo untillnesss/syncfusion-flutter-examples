@@ -278,7 +278,7 @@ class _AnnotationsPdfViewerState extends SampleViewState {
               return pdfViewer;
             }
             return SfPdfViewerTheme(
-              data: const SfPdfViewerThemeData(),
+              data: SfPdfViewerThemeData(),
               child: pdfViewer,
             );
           } else {

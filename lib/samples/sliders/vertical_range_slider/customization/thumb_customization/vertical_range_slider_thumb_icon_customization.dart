@@ -65,7 +65,7 @@ class _VerticalThumbCustomizationRangeSliderPageState extends SampleViewState {
 
   SfRangeSliderTheme _thumbCustomizationSlider() {
     return SfRangeSliderTheme(
-        data: const SfRangeSliderThemeData(thumbRadius: 14),
+        data: SfRangeSliderThemeData(thumbRadius: 14),
         child: SfRangeSlider.vertical(
           max: 10.0,
           stepSize: 1,

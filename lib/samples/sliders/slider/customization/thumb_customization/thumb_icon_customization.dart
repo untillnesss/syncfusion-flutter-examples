@@ -71,7 +71,7 @@ class _ThumbCustomizationSliderPageState extends SampleViewState {
 
   SfSliderTheme _thumbCustomizationSlider() {
     return SfSliderTheme(
-        data: const SfSliderThemeData(thumbRadius: 14),
+        data: SfSliderThemeData(thumbRadius: 14),
         child: SfSlider(
           max: 10.0,
           stepSize: 1,

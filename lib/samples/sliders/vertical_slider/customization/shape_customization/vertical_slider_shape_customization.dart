@@ -53,7 +53,7 @@ class _VerticalShapeCustomizedSliderPageState extends SampleViewState {
             Column(children: <Widget>[
               Expanded(
                 child: SfSliderTheme(
-                    data: const SfSliderThemeData(
+                    data: SfSliderThemeData(
                       overlayColor: Colors.transparent,
                     ),
                     child: SfSlider.vertical(

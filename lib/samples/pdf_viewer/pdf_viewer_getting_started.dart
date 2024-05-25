@@ -50,7 +50,7 @@ class _GettingStartedPdfViewerState extends SampleViewState {
           builder: (BuildContext context, AsyncSnapshot<Object?> snapshot) {
             if (_canShowPdf) {
               return SfPdfViewerTheme(
-                data: const SfPdfViewerThemeData(),
+                data: SfPdfViewerThemeData(),
                 child: SfPdfViewer.asset(
                   'assets/pdf/flutter_succinctly.pdf',
                   controller: _pdfViewerController,

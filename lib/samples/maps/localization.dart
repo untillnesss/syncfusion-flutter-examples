@@ -132,7 +132,7 @@ class _MapsWithLocalizationState extends LocalizationSampleViewState {
                         style: _themeData.textTheme.titleMedium))),
             Expanded(
               child: SfMapsTheme(
-                data: const SfMapsThemeData(
+                data: SfMapsThemeData(
                     shapeHoverColor: Colors.transparent,
                     shapeHoverStrokeColor: Colors.transparent),
                 child: SfMaps(
